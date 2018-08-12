@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MARVEL VS DC</title>
+    <style>
+        #main {
+            height: 100%;
+            width: 100%;
+            background-color: dodgerblue;
+        }
+        #page {
+            background-color: lightskyblue;
+            height: 80%;
+            width: 60%;
+            margin-left: 20%;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <div id="page">
+        <div id="head">
+            Check your superhero is from Marvel or DC.
+        </div>
+        <form method="post" action="/submit">
+            <div id="img">
+                <input type="file" name="image" id="image">
+            </div>
+            <input type="submit" value="CHECK">
+        </form>
+        <div id="output">
+
+        </div>
+    </div>
+</div>
+<script src="../index.js"></script>
+</body>
+</html>
